@@ -4,6 +4,6 @@ function setup() {
 
 function draw() {
   background(220);
-  let character = sessionStorage.getItem("nftImg");
+  let character = localStorage.getItem("nftImg");
   console.log(character);
 }
