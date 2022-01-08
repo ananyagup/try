@@ -4,6 +4,6 @@ function setup() {
 
 function draw() {
   background(220);
-  let character = localStorage.getItem("nftImg");
-  console.log(character);
+  let params = getURLParams();
+  console.log(params.name);
 }
